@@ -1,7 +1,9 @@
 import {
-  require_auth,
+  require_auth
+} from "/build/_shared/chunk-FLR2BSJS.js";
+import {
   require_node
-} from "/build/_shared/chunk-OLFG4TLV.js";
+} from "/build/_shared/chunk-3K2JK6MY.js";
 import {
   Form,
   Link,
@@ -21,13 +23,13 @@ function Login() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "flex flex-col items-center justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "w-full max-w-md bg-white p-8 rounded-lg shadow-md", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { className: "text-2xl font-bold mb-6 text-center", children: "Login" }, void 0, false, {
       fileName: "app/routes/login.jsx",
-      lineNumber: 37,
+      lineNumber: 39,
       columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Form, { method: "post", className: "space-y-6", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { type: "hidden", name: "redirectTo", value: redirectTo }, void 0, false, {
         fileName: "app/routes/login.jsx",
-        lineNumber: 40,
+        lineNumber: 42,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "flex justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
@@ -41,40 +43,40 @@ function Login() {
         false,
         {
           fileName: "app/routes/login.jsx",
-          lineNumber: 43,
+          lineNumber: 45,
           columnNumber: 13
         },
         this
       ) }, void 0, false, {
         fileName: "app/routes/login.jsx",
-        lineNumber: 42,
+        lineNumber: 44,
         columnNumber: 11
       }, this)
     ] }, void 0, true, {
       fileName: "app/routes/login.jsx",
-      lineNumber: 39,
+      lineNumber: 41,
       columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "mt-6 text-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/", className: "text-blue-600 hover:underline", children: "Back to Home" }, void 0, false, {
       fileName: "app/routes/login.jsx",
-      lineNumber: 53,
+      lineNumber: 55,
       columnNumber: 11
     }, this) }, void 0, false, {
       fileName: "app/routes/login.jsx",
-      lineNumber: 52,
+      lineNumber: 54,
       columnNumber: 9
     }, this)
   ] }, void 0, true, {
     fileName: "app/routes/login.jsx",
-    lineNumber: 36,
+    lineNumber: 38,
     columnNumber: 7
   }, this) }, void 0, false, {
     fileName: "app/routes/login.jsx",
-    lineNumber: 35,
+    lineNumber: 37,
     columnNumber: 5
   }, this);
 }
 export {
   Login as default
 };
-//# sourceMappingURL=/build/routes/login-BLGY64NB.js.map
+//# sourceMappingURL=/build/routes/login-6YZ7NP2V.js.map

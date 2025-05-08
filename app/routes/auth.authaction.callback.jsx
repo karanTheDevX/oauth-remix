@@ -1,4 +1,4 @@
-import { authenticator } from "../utils/auth.server";
+import { authenticator } from "../services/auth.server";
 
 // This route handles the callback from AuthAction OAuth
 export const loader = async ({ request }) => {

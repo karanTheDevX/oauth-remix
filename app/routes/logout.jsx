@@ -1,10 +1,11 @@
-import { redirect } from "@remix-run/node";
-import { authenticator } from "../utils/auth.server";
+import { authenticator } from "../services/auth.server";
 
-export const action = async ({ request }) => {
-  return authenticator.logout(request, { redirectTo: "/" });
-};
+export async function action({ request }) {
+  return authenticator.logout(request, {
+    redirectTo: "/login",
+  });
+}
 
-export const loader = async () => {
-  return redirect("/");
-};
+export async function loader() {
+  return redirect("/login");
+}

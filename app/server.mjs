@@ -3,6 +3,10 @@ import { installGlobals } from "@remix-run/node";
 import express from "express";
 import path from "path";
 import { fileURLToPath } from "url";
+import dotenv from "dotenv";
+
+// Load environment variables from .env file
+dotenv.config();
 
 installGlobals();
 

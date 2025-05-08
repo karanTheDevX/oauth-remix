@@ -1,5 +1,5 @@
 import { json } from "@remix-run/node";
-import { requireAuth } from "../utils/auth.server";
+import { requireAuth } from "../services/auth.server";
 
 export const loader = async ({ request }) => {
   try {

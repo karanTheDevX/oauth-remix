@@ -1,6 +1,6 @@
 import { json } from "@remix-run/node";
 import { Link, useLoaderData } from "@remix-run/react";
-import { isAuthenticated } from "../utils/auth.server";
+import { isAuthenticated } from "../services/auth.server";
 
 export const meta = () => {
   return [

@@ -1,7 +1,8 @@
 import { json, redirect } from "@remix-run/node";
 import { Form, Link, useLoaderData } from "@remix-run/react";
-import { authenticator, isAuthenticated } from "../utils/auth.server";
+import { authenticator, isAuthenticated } from "../services/auth.server";
 
+// Export a function called loader that takes in a request object
 export const loader = async ({ request }) => {
   // If the user is already authenticated, redirect to the homepage
   const user = await isAuthenticated(request);
@@ -13,6 +14,7 @@ export const loader = async ({ request }) => {
   const url = new URL(request.url);
   const redirectTo = url.searchParams.get("redirectTo") || "/";
 
+  // Return a JSON object with the redirectTo URL
   return json({ redirectTo });
 };
 
