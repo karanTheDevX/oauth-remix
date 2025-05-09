@@ -1,11 +1,10 @@
+// app/routes/logout.jsx
 import { authenticator } from "../services/auth.server";
 
-export async function action({ request }) {
-  return authenticator.logout(request, {
-    redirectTo: "/login",
+export const action = async ({ request }) => {
+  return await authenticator.logout(request, {
+    redirectTo: "/",
   });
-}
+};
 
-export async function loader() {
-  return redirect("/login");
-}
+// No default export needed since this is just an action route
